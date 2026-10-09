@@ -14,7 +14,7 @@ contribution under both licenses.
 
 ## Development Setup
 
-    git clone https://github.com/cristianoronaldo/dicom-clean.git
+    git clone https://github.com/kaveen-ai/dicom-clean.git
     cd dicom-clean
     python -m venv .venv
     .venv\Scripts\activate

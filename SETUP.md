@@ -43,7 +43,7 @@ This guide has **two paths**. Pick the one that fits you:
 1. Open your browser and go to:
 
    ```
-   https://github.com/cristianoronaldo/dicom-clean/releases/latest
+   https://github.com/kaveen-ai/dicom-clean/releases/latest
    ```
 
 2. Under **Assets**, download the file for your operating system:
@@ -264,7 +264,7 @@ cd C:\Users\ACER\Desktop          # Windows
 # or
 cd ~/Desktop                      # macOS / Linux
 
-git clone https://github.com/cristianoronaldo/dicom-clean.git
+git clone https://github.com/kaveen-ai/dicom-clean.git
 
 cd dicom-clean
 ```
@@ -571,8 +571,8 @@ rmdir /s dicom-clean       # Windows
 - 📖 Read the [Usage section](README.md#-usage) in the main README
 - 🔒 Learn about [HIPAA compliance](README.md#-security--compliance)
 - 🤝 Contribute — see [CONTRIBUTING.md](CONTRIBUTING.md)
-- 🐛 Found a bug? Open an [issue](https://github.com/cristianoronaldo/dicom-clean/issues)
-- 💬 Have questions? Start a [discussion](https://github.com/cristianoronaldo/dicom-clean/discussions)
+- 🐛 Found a bug? Open an [issue](https://github.com/kaveen-ai/dicom-clean/issues)
+- 💬 Have questions? Start a [discussion](https://github.com/kaveen-ai/dicom-clean/discussions)
 
 ---
 
@@ -580,7 +580,7 @@ rmdir /s dicom-clean       # Windows
 
 **Setup complete? Give us a ⭐ on GitHub!**
 
-[Report an issue](https://github.com/cristianoronaldo/dicom-clean/issues) •
+[Report an issue](https://github.com/kaveen-ai/dicom-clean/issues) •
 [Read the docs](README.md) •
 [View the roadmap](README.md#-roadmap)
 

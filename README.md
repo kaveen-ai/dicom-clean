@@ -94,7 +94,7 @@ chmod +x dicom-clean
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/cristianoronaldo/dicom-clean.git
+git clone https://github.com/kaveen-ai/dicom-clean.git
 cd dicom-clean
 
 # 2. (Recommended) Create a virtual environment
@@ -281,7 +281,7 @@ dicom-clean/
 - [x] Dual-licensing (AGPL-3.0 + Commercial)
 - [ ] GitHub Actions CI (test matrix: Python 3.10–3.13, Windows/macOS/Linux)
 - [ ] Signed release artifacts + SHA-256 checksums
-- [ ] Docker image (`ghcr.io/cristianoronaldo/dicom-clean`)
+- [ ] Docker image (`ghcr.io/kaveen-ai/dicom-clean`)
 - [ ] `pip install dicom-clean` (PyPI publication)
 
 ### 🚧 Phase 3 — MedAnonym Commercial Edition (Planned)

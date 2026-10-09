@@ -584,7 +584,7 @@ OPTIONS:
 - 📖 [Full documentation](README.md)
 - 🔧 [Setup guide](SETUP.md)
 - 🐛 [Troubleshooting](docs/TROUBLESHOOTING.md)
-- 💬 [GitHub Discussions](https://github.com/cristianoronaldo/dicom-clean/discussions)
+- 💬 [GitHub Discussions](https://github.com/kaveen-ai/dicom-clean/discussions)
 - 📧 Email: hello@medanonym.dev
 
 ---
