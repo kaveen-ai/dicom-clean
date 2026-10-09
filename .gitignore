@@ -1,0 +1,219 @@
+# ============================================================
+#  dicom-clean — .gitignore
+#  HIPAA Safe Harbor DICOM Anonymizer
+# ============================================================
+
+# ------------------------------------------------------------
+#  ⚠️  CRITICAL: NEVER COMMIT THESE
+#  These may contain patient data, secrets, or salts.
+# ------------------------------------------------------------
+
+# Salt files (used for UID pseudonymization)
+*.salt
+salt.txt
+salt.*
+.env
+.env.*
+secrets.txt
+secret*
+
+# Anonymized / original DICOM outputs
+output/
+output_*/
+output-*/
+clean/
+clean_*/
+clean-*/
+anonymized/
+*_anonymized/
+*_clean/
+
+# Test DICOM files (may contain real patient data if accidentally copied)
+# Uncomment the next line ONLY if your repo ships test DICOMs on purpose.
+# *.dcm
+# *.dicom
+# *.DCM
+
+# HIPAA / compliance reports
+reports/
+audit_logs/
+*.audit.log
+compliance_*.pdf
+
+# Log files (may contain file paths or metadata)
+*.log
+logs/
+
+# ------------------------------------------------------------
+#  PyInstaller
+# ------------------------------------------------------------
+build/
+dist/
+*.spec.bak
+*.manifest
+*.exe
+*.dll
+*.so
+*.dylib
+warn-*.txt
+xref-*.html
+
+# Keep the .spec file (it defines how to build)
+!dicom-clean.spec
+
+# ------------------------------------------------------------
+#  Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------
+#  Virtual environments
+# ------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+.conda/
+.envrc
+
+# ------------------------------------------------------------
+#  Testing / coverage / type checking
+# ------------------------------------------------------------
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+.hypothesis/
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.ruff_cache/
+
+# ------------------------------------------------------------
+#  Jupyter Notebook
+# ------------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ------------------------------------------------------------
+#  IDE / Editor
+# ------------------------------------------------------------
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------------------------
+#  Operating Systems
+# ------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ------------------------------------------------------------
+#  Package managers / lock files (uncomment if you want to ignore)
+# ------------------------------------------------------------
+# Poetry
+# poetry.lock
+
+# Pipenv
+# Pipfile.lock
+
+# PDM
+# pdm.lock
+
+# ------------------------------------------------------------
+#  Project-specific
+# ------------------------------------------------------------
+# Local test output
+test_output/
+test_output_*/
+tmp/
+temp/
+scratch/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archive files (do not commit pre-built binaries via git)
+*.zip
+*.tar.gz
+*.tar
+*.7z
+*.rar
+!source-code.zip
+
+# ------------------------------------------------------------
+#  Documentation artifacts (uncomment if you build them)
+# ------------------------------------------------------------
+# site/
+# docs/_build/
+# _site/

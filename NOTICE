@@ -1,0 +1,58 @@
+﻿dicom-clean
+Copyright (C) 2024-2025 MedAnonym Labs
+
+This product is dual-licensed.
+
+================================================================================
+OPEN SOURCE LICENSE - AGPL-3.0-or-later
+================================================================================
+
+The default license for dicom-clean is the GNU Affero General Public License
+version 3 or later (AGPL-3.0-or-later). This license is free of charge and
+applies to:
+
+    - Personal, non-commercial use
+    - Academic research and teaching
+    - Non-profit hospitals and clinics
+    - Open-source projects (AGPL-3.0-compatible)
+    - Internal evaluation and testing
+
+Under AGPL-3.0, if you run a modified version of dicom-clean on a network
+server and let other users interact with it, you MUST make your modified
+source code available to those users. See Section 13 of the AGPL-3.0.
+
+================================================================================
+COMMERCIAL LICENSE
+================================================================================
+
+A separate commercial license is available for organizations that cannot
+comply with the AGPL-3.0. This includes, but is not limited to:
+
+    - Commercial hospitals, clinics, and imaging centers
+    - SaaS / cloud deployments (MedAnonym, PACS integrations)
+    - Embedding dicom-clean in a proprietary product
+    - Integration with closed-source EHR / PACS / RIS systems
+    - Use in FDA-regulated or MDR-regulated medical device workflows
+
+For pricing and terms, contact: hello@medanonym.dev
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+dicom-clean depends on the following open-source libraries:
+
+    - pydicom             (MIT License)
+    - typer               (MIT License)
+    - rich                (MIT License)
+    - click               (BSD-3-Clause License)
+    - charset-normalizer  (MIT License)
+
+================================================================================
+MEDICAL DISCLAIMER
+================================================================================
+
+dicom-clean is a metadata de-identification tool. It is NOT a medical device
+and has NOT been cleared or approved by the FDA, EMA, MHRA, or any other
+regulatory authority.
+
